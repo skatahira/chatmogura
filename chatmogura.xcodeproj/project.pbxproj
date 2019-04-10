@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E2800825F42346B06B084A /* Pods_chatmogura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D938D673C687C3395615E8A8 /* Pods_chatmogura.framework */; };
+		5C2E96D0F1ADF12DF1F0CD9E /* Pods_chatmoguraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9491E42D78D8B2A4032CA57 /* Pods_chatmoguraUITests.framework */; };
+		B8BE1C46AAE3BEAFF416BDF4 /* Pods_chatmoguraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80FEC1EAC59079DD4C5A62 /* Pods_chatmoguraTests.framework */; };
+		ED6C900922508EA50044D63E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED6C900822508EA50044D63E /* GoogleService-Info.plist */; };
+		ED6C900A22508EA50044D63E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED6C900822508EA50044D63E /* GoogleService-Info.plist */; };
+		ED6C900B22508EA50044D63E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED6C900822508EA50044D63E /* GoogleService-Info.plist */; };
+		EDBB8F5C2245F7E000168751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB8F5B2245F7E000168751 /* AppDelegate.swift */; };
+		EDBB8F5E2245F7E000168751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB8F5D2245F7E000168751 /* ViewController.swift */; };
+		EDBB8F612245F7E000168751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB8F5F2245F7E000168751 /* Main.storyboard */; };
+		EDBB8F632245F7E300168751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBB8F622245F7E300168751 /* Assets.xcassets */; };
+		EDBB8F662245F7E300168751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB8F642245F7E300168751 /* LaunchScreen.storyboard */; };
+		EDBB8F712245F7E300168751 /* chatmoguraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB8F702245F7E300168751 /* chatmoguraTests.swift */; };
+		EDBB8F7C2245F7E300168751 /* chatmoguraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB8F7B2245F7E300168751 /* chatmoguraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDBB8F6D2245F7E300168751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBB8F502245F7E000168751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBB8F572245F7E000168751;
+			remoteInfo = chatmogura;
+		};
+		EDBB8F782245F7E300168751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBB8F502245F7E000168751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBB8F572245F7E000168751;
+			remoteInfo = chatmogura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF9EBCDD414078EB40E8491 /* Pods-chatmoguraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmoguraTests.debug.xcconfig"; path = "Target Support Files/Pods-chatmoguraTests/Pods-chatmoguraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27662CE249BAAA440E04D132 /* Pods-chatmogura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmogura.debug.xcconfig"; path = "Target Support Files/Pods-chatmogura/Pods-chatmogura.debug.xcconfig"; sourceTree = "<group>"; };
+		2E80FEC1EAC59079DD4C5A62 /* Pods_chatmoguraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatmoguraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4358282D0809AC04B2C92D51 /* Pods-chatmoguraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmoguraUITests.debug.xcconfig"; path = "Target Support Files/Pods-chatmoguraUITests/Pods-chatmoguraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9491E42D78D8B2A4032CA57 /* Pods_chatmoguraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatmoguraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D938D673C687C3395615E8A8 /* Pods_chatmogura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatmogura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11D050C5E27AB7C1F47DD4B /* Pods-chatmoguraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmoguraTests.release.xcconfig"; path = "Target Support Files/Pods-chatmoguraTests/Pods-chatmoguraTests.release.xcconfig"; sourceTree = "<group>"; };
+		E905C306AB121A088AB08BAC /* Pods-chatmogura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmogura.release.xcconfig"; path = "Target Support Files/Pods-chatmogura/Pods-chatmogura.release.xcconfig"; sourceTree = "<group>"; };
+		ED6C900822508EA50044D63E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDBB8F582245F7E000168751 /* chatmogura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatmogura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBB8F5B2245F7E000168751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDBB8F5D2245F7E000168751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDBB8F602245F7E000168751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDBB8F622245F7E300168751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBB8F652245F7E300168751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDBB8F672245F7E300168751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBB8F6C2245F7E300168751 /* chatmoguraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatmoguraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBB8F702245F7E300168751 /* chatmoguraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatmoguraTests.swift; sourceTree = "<group>"; };
+		EDBB8F722245F7E300168751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBB8F772245F7E300168751 /* chatmoguraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatmoguraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBB8F7B2245F7E300168751 /* chatmoguraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatmoguraUITests.swift; sourceTree = "<group>"; };
+		EDBB8F7D2245F7E300168751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15448818C08F1D7B6FC1A40 /* Pods-chatmoguraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmoguraUITests.release.xcconfig"; path = "Target Support Files/Pods-chatmoguraUITests/Pods-chatmoguraUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDBB8F552245F7E000168751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E2800825F42346B06B084A /* Pods_chatmogura.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F692245F7E300168751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BE1C46AAE3BEAFF416BDF4 /* Pods_chatmoguraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F742245F7E300168751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2E96D0F1ADF12DF1F0CD9E /* Pods_chatmoguraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4142348E11C3077AF86DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27662CE249BAAA440E04D132 /* Pods-chatmogura.debug.xcconfig */,
+				E905C306AB121A088AB08BAC /* Pods-chatmogura.release.xcconfig */,
+				1CF9EBCDD414078EB40E8491 /* Pods-chatmoguraTests.debug.xcconfig */,
+				E11D050C5E27AB7C1F47DD4B /* Pods-chatmoguraTests.release.xcconfig */,
+				4358282D0809AC04B2C92D51 /* Pods-chatmoguraUITests.debug.xcconfig */,
+				F15448818C08F1D7B6FC1A40 /* Pods-chatmoguraUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDBB8F4F2245F7E000168751 = {
+			isa = PBXGroup;
+			children = (
+				EDBB8F5A2245F7E000168751 /* chatmogura */,
+				EDBB8F6F2245F7E300168751 /* chatmoguraTests */,
+				EDBB8F7A2245F7E300168751 /* chatmoguraUITests */,
+				EDBB8F592245F7E000168751 /* Products */,
+				4C4142348E11C3077AF86DA6 /* Pods */,
+				F3A880F0CD01ABB9E41C4C41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDBB8F592245F7E000168751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB8F582245F7E000168751 /* chatmogura.app */,
+				EDBB8F6C2245F7E300168751 /* chatmoguraTests.xctest */,
+				EDBB8F772245F7E300168751 /* chatmoguraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBB8F5A2245F7E000168751 /* chatmogura */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB8F5B2245F7E000168751 /* AppDelegate.swift */,
+				EDBB8F5D2245F7E000168751 /* ViewController.swift */,
+				EDBB8F5F2245F7E000168751 /* Main.storyboard */,
+				EDBB8F622245F7E300168751 /* Assets.xcassets */,
+				EDBB8F642245F7E300168751 /* LaunchScreen.storyboard */,
+				EDBB8F672245F7E300168751 /* Info.plist */,
+				ED6C900822508EA50044D63E /* GoogleService-Info.plist */,
+			);
+			path = chatmogura;
+			sourceTree = "<group>";
+		};
+		EDBB8F6F2245F7E300168751 /* chatmoguraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB8F702245F7E300168751 /* chatmoguraTests.swift */,
+				EDBB8F722245F7E300168751 /* Info.plist */,
+			);
+			path = chatmoguraTests;
+			sourceTree = "<group>";
+		};
+		EDBB8F7A2245F7E300168751 /* chatmoguraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB8F7B2245F7E300168751 /* chatmoguraUITests.swift */,
+				EDBB8F7D2245F7E300168751 /* Info.plist */,
+			);
+			path = chatmoguraUITests;
+			sourceTree = "<group>";
+		};
+		F3A880F0CD01ABB9E41C4C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D938D673C687C3395615E8A8 /* Pods_chatmogura.framework */,
+				2E80FEC1EAC59079DD4C5A62 /* Pods_chatmoguraTests.framework */,
+				A9491E42D78D8B2A4032CA57 /* Pods_chatmoguraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDBB8F572245F7E000168751 /* chatmogura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBB8F802245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmogura" */;
+			buildPhases = (
+				827BC4FC2406CD801D912F53 /* [CP] Check Pods Manifest.lock */,
+				EDBB8F542245F7E000168751 /* Sources */,
+				EDBB8F552245F7E000168751 /* Frameworks */,
+				EDBB8F562245F7E000168751 /* Resources */,
+				46C17551389A9E3B9146FE27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatmogura;
+			productName = chatmogura;
+			productReference = EDBB8F582245F7E000168751 /* chatmogura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDBB8F6B2245F7E300168751 /* chatmoguraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBB8F832245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmoguraTests" */;
+			buildPhases = (
+				8AD24B33EAACBDECB3FD8D71 /* [CP] Check Pods Manifest.lock */,
+				EDBB8F682245F7E300168751 /* Sources */,
+				EDBB8F692245F7E300168751 /* Frameworks */,
+				EDBB8F6A2245F7E300168751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBB8F6E2245F7E300168751 /* PBXTargetDependency */,
+			);
+			name = chatmoguraTests;
+			productName = chatmoguraTests;
+			productReference = EDBB8F6C2245F7E300168751 /* chatmoguraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDBB8F762245F7E300168751 /* chatmoguraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBB8F862245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmoguraUITests" */;
+			buildPhases = (
+				A228DDC5386732D10C3B11B6 /* [CP] Check Pods Manifest.lock */,
+				EDBB8F732245F7E300168751 /* Sources */,
+				EDBB8F742245F7E300168751 /* Frameworks */,
+				EDBB8F752245F7E300168751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBB8F792245F7E300168751 /* PBXTargetDependency */,
+			);
+			name = chatmoguraUITests;
+			productName = chatmoguraUITests;
+			productReference = EDBB8F772245F7E300168751 /* chatmoguraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDBB8F502245F7E000168751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "片平駿介";
+				TargetAttributes = {
+					EDBB8F572245F7E000168751 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EDBB8F6B2245F7E300168751 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EDBB8F572245F7E000168751;
+					};
+					EDBB8F762245F7E300168751 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EDBB8F572245F7E000168751;
+					};
+				};
+			};
+			buildConfigurationList = EDBB8F532245F7E000168751 /* Build configuration list for PBXProject "chatmogura" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDBB8F4F2245F7E000168751;
+			productRefGroup = EDBB8F592245F7E000168751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBB8F572245F7E000168751 /* chatmogura */,
+				EDBB8F6B2245F7E300168751 /* chatmoguraTests */,
+				EDBB8F762245F7E300168751 /* chatmoguraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDBB8F562245F7E000168751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBB8F662245F7E300168751 /* LaunchScreen.storyboard in Resources */,
+				ED6C900922508EA50044D63E /* GoogleService-Info.plist in Resources */,
+				EDBB8F632245F7E300168751 /* Assets.xcassets in Resources */,
+				EDBB8F612245F7E000168751 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F6A2245F7E300168751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6C900A22508EA50044D63E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F752245F7E300168751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6C900B22508EA50044D63E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46C17551389A9E3B9146FE27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chatmogura/Pods-chatmogura-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatmogura/Pods-chatmogura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827BC4FC2406CD801D912F53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatmogura-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD24B33EAACBDECB3FD8D71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatmoguraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A228DDC5386732D10C3B11B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatmoguraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDBB8F542245F7E000168751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBB8F5E2245F7E000168751 /* ViewController.swift in Sources */,
+				EDBB8F5C2245F7E000168751 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F682245F7E300168751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBB8F712245F7E300168751 /* chatmoguraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBB8F732245F7E300168751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBB8F7C2245F7E300168751 /* chatmoguraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDBB8F6E2245F7E300168751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBB8F572245F7E000168751 /* chatmogura */;
+			targetProxy = EDBB8F6D2245F7E300168751 /* PBXContainerItemProxy */;
+		};
+		EDBB8F792245F7E300168751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBB8F572245F7E000168751 /* chatmogura */;
+			targetProxy = EDBB8F782245F7E300168751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDBB8F5F2245F7E000168751 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDBB8F602245F7E000168751 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDBB8F642245F7E300168751 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDBB8F652245F7E300168751 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDBB8F7E2245F7E300168751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDBB8F7F2245F7E300168751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDBB8F812245F7E300168751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27662CE249BAAA440E04D132 /* Pods-chatmogura.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmogura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmogura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDBB8F822245F7E300168751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E905C306AB121A088AB08BAC /* Pods-chatmogura.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmogura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmogura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDBB8F842245F7E300168751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF9EBCDD414078EB40E8491 /* Pods-chatmoguraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmoguraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmoguraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatmogura.app/chatmogura";
+			};
+			name = Debug;
+		};
+		EDBB8F852245F7E300168751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11D050C5E27AB7C1F47DD4B /* Pods-chatmoguraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmoguraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmoguraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatmogura.app/chatmogura";
+			};
+			name = Release;
+		};
+		EDBB8F872245F7E300168751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4358282D0809AC04B2C92D51 /* Pods-chatmoguraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmoguraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmoguraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chatmogura;
+			};
+			name = Debug;
+		};
+		EDBB8F882245F7E300168751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15448818C08F1D7B6FC1A40 /* Pods-chatmoguraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX8DA6RUQ3;
+				INFOPLIST_FILE = chatmoguraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memory.chatmoguraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chatmogura;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDBB8F532245F7E000168751 /* Build configuration list for PBXProject "chatmogura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBB8F7E2245F7E300168751 /* Debug */,
+				EDBB8F7F2245F7E300168751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBB8F802245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmogura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBB8F812245F7E300168751 /* Debug */,
+				EDBB8F822245F7E300168751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBB8F832245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmoguraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBB8F842245F7E300168751 /* Debug */,
+				EDBB8F852245F7E300168751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBB8F862245F7E300168751 /* Build configuration list for PBXNativeTarget "chatmoguraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBB8F872245F7E300168751 /* Debug */,
+				EDBB8F882245F7E300168751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDBB8F502245F7E000168751 /* Project object */;
+}

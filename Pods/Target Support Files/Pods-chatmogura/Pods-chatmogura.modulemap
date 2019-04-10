@@ -1,0 +1,6 @@
+framework module Pods_chatmogura {
+  umbrella header "Pods-chatmogura-umbrella.h"
+
+  export *
+  module * { export * }
+}
