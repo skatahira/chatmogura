@@ -79,7 +79,7 @@ class ViewController: JSQMessagesViewController {
 //    送信ボタン押下時
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         inputToolbar.contentView.textView.text = ""
-       let ref = FIRDatabase.database().reference()
+        let ref = Database.database().reference()
         ref.child("messages").childByAutoId().setValue(["senderId": senderId, "text": text, "displayName": senderDisplayName])
     }
 }
